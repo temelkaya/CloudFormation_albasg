@@ -1,0 +1,16 @@
+10/22/2022  Saturday 
+
+Cloudformation
+
+1. IAC (Infrastructure as Code)/Immutable Infrastructure
+2. Keep track on the Infrastructure
+3. Disaster recovery tool / Zero down time 
+4. Save time, effort, less mistake prone 
+4. readability, reusilibility, modularity
+
+Cloudformation template body:
+1. Any json block starts and ends with curly braces. example {}
+2. Standart Template format and version: "AWSTemplateFormatVersion": "2010-09-09"
+3. "Parameters" --> Its like a variable in Python. Basically cft uses 
+existing aws resource 
+4. Resources --> means cft creates AWS resource from scratch 
